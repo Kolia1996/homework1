@@ -48,26 +48,28 @@
 				</tbody>
 		    </table>
 			<h2>Вкажіть свої дані</h2>
+			<form>
 			       <input type="text" placeholder="Ім'я" />
 			<br/>
 			       <input type="text" placeholder="Прізвище" />
-			<p>Ваша стать ?<p>
-			       <input type="radio" name="sex" /> Чоловіча <br>
-			       <input type="radio" name="sex" /> Жіноча <br>
+			<p >Ваша стать ? <p>
+			       <div><label><input checked type="radio" name="sex" /> Чоловіча </label></div>
+			       <div><label><input type="radio" name="sex" /> Жіноча </label></div>
 			<textarea rows="10" cols="30" placeholder="Напишіть своє питання"></textarea>
 			</br>
 			     <select >
-			          <option selected="selected">Виберіть місто</option>
+			          <option disabled selected select>Виберіть місто</option>
 					  <option>Київ</option>
 					  <option>Львів</option>
 					  <option>Одеса</option>
 				 </select>
 		    </br>
 			<p>Виберіть мову:</p>
-				 <input type="checkbox">Англійська</input> </br>
-				 <input type="checkbox">Українська</input> </br>
-				 <input type="checkbox">Російська</input> </br>
-			<button>Відправити</button>
+				 <div><label><input type="checkbox">Англійська</input></label><div> 
+				 <div><label><input type="checkbox">Українська</input></label></div>
+				 <div><label><input type="checkbox">Російська</input></label></div>
+			<button type="sumbit">>Відправити</button>
+			</form>
 	     </body>
 		  
 </html>
