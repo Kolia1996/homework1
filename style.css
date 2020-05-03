@@ -1,0 +1,42 @@
+th {
+  border-bottom: 1px solid #4d4d4d;
+  text-align: left;
+ 
+  padding: 12px 10px;
+}
+.right{
+	text-align: right;
+}
+.idd{
+	padding: 0px 0px 0px 10px;
+}
+.t1{
+	
+	border-bottom: 1px solid #4d4d4d;
+	
+}
+.table1
+{   
+    width: 700px;
+	border: 2px solid;
+	border-radius: 10px;
+	height: 160px;
+	font-size: 25px;
+
+}
+.table2
+{
+	border: 2px solid;
+	border-radius: 10px;
+	width: 700px;
+	height: 160px;
+	font-size: 25px;
+}
+.table3
+{
+	border: 2px solid;
+	border-radius: 10px;
+	width: 700px;
+	height: 160px;
+	font-size: 25px;
+}
