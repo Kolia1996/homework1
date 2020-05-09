@@ -1,0 +1,83 @@
+body{
+    background-color:#2c2c2c;
+    font-family: 'serif', sans-serif;
+  
+}
+.shearchbox{
+	text-align: right;
+
+	
+    
+}
+.box{
+	background-color: transparent;
+	width: 120px;
+	height: 30px;
+	border-radius: 10px;
+	border-color: black;
+}
+.t4{
+	color: #4d4d4d;
+	border-bottom: 1px solid #4d4d4d;
+	padding: 10px;
+}
+th {
+  border-bottom: 1px solid #4d4d4d;
+  text-align: left;
+  width: 33%;
+  padding: 12px 10px;
+}
+
+
+.t5{
+	color: #4d4d4d;
+	padding: 10px;
+}
+.t6{
+	padding: 10px;
+}
+.t2{
+	text-align: right;
+	border-bottom: 1px solid #4d4d4d;
+	padding: 10px;
+}
+.t1{
+	
+	border-bottom: 1px solid #4d4d4d;
+	padding: 10px;
+	
+}
+.t3{
+	text-align: right;
+	padding: 10px;
+	
+	
+}
+.table1
+{   
+    width: 800px;
+	border: 2px solid;
+	border-radius: 10px;
+	height: 160px;
+	font-size: 25px;
+	border-color: #4d4d4d;
+
+}
+.table2
+{
+	border: 2px solid;
+	border-radius: 10px;
+	width: 800px;
+	height: 160px;
+	font-size: 25px;
+	border-color: #4d4d4d;
+}
+.table3
+{
+	border: 2px solid;
+	border-radius: 10px;
+	width: 800px;
+	height: 160px;
+	font-size: 25px;
+	border-color: #4d4d4d;
+}
