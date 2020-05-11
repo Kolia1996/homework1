@@ -2,9 +2,9 @@ html,body {
 	font-family: "Lato";
 	background-image: url('./3.png');
 	font-size: 14px;
-	max-width: 1440px;
+	width: 1440px;
     height: 782px;
-	background-image: no-repeat;
+	background-repeat: no-repeat;
 }
 .menu{
 	display: flex;
