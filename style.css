@@ -2,7 +2,7 @@ html,body {
 	font-family: "Lato";
 	background-image: url('./3.png');
 	font-size: 14px;
-	width: 1440px;
+	max-width: 1440px;
     height: 782px;
 	background-image: no-repeat;
 }
