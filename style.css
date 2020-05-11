@@ -4,6 +4,7 @@ html,body {
 	font-size: 14px;
 	width: 1440px;
     height: 782px;
+	background-image: no-repeat;
 }
 .menu{
 	display: flex;
@@ -18,6 +19,8 @@ font-size: 18px;
 line-height: 22px;
 margin-left: 10px;
 color: #FFFFFF;
+position: relative;
+	top: 5px;
 }
 .menu{
 font-family: Lato;
@@ -32,11 +35,11 @@ padding-left: 161px;
 color: white;
 
 
-
 }
 
 .cloud{
 	padding-left: 166.45px;
+	
 	
 	
 	
