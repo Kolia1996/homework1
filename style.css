@@ -1,88 +1,91 @@
 html,body {
 	font-family: "Lato";
 	background-image: url('./3.png');
-	font-size: 14px;
-	width: 1440px;
-    height: 782px;
 	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	min-height: 100vh;
 }
-.menu{
-	display: flex;
-    
-    padding-left: 161px;
+.header{
+display: flex;
+padding-top: 60px;
 }
-.w2{
-	font-family: Lato;
+.cloud{
+	margin-left: 161px;
+	height: 17px;
+	width: 25px;
+}
+.budget{
+margin-left: 10px;
+width: 136px;
+height: 22px;
+left: 201px;
+top: 59px;
+font-family: Lato;
 font-style: normal;
 font-weight: bold;
 font-size: 18px;
 line-height: 22px;
-margin-left: 10px;
+display: flex;
+align-items: center;
+text-transform: uppercase;
 color: #FFFFFF;
-position: relative;
-	top: 5px;
 }
 .menu{
+width: 445px;
+height: 22px;
+left: 498px;
+top: 58px;
 font-family: Lato;
 font-style: normal;
 font-weight: bold;
 font-size: 14px;
 line-height: 17px;
-display: flex ;
+display: flex;
 align-items: center;
 text-transform: uppercase;
+color: #FFFFFF;
 padding-left: 161px;
-color: white;
+}
+.name{
+	margin-left: 21px;
+}
+.usa{
+	margin-left: 114px;
+}
+.lg{
+	margin-left: 12px;
+	width: 32px;
+height: 22px;
+left: 1099px;
+top: 59px;
 
+font-family: Lato;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+display: flex;
+align-items: center;
+text-transform: uppercase;
 
-}
+color: #FFFFFF;
 
-.cloud{
-	padding-left: 166.45px;
-	
-	
-	
-	
-}
-.big{
-	display: flex;
-	padding-top: 58px;
-	
-}
-.r{
-	margin-left: 23px;
-}
-.r1{
-	margin-left: 23px;
-}
-	
-
-.r2{
-	margin-left: 23px;
-	
-}
-.r3{
-	margin-left: 18px;
 }
 .down{
+	width: 12.4px;
+	height: 7.5px;
+	position: absolute;
+	top: 67px;
 	
-	height: 7.45px;
-	
-	padding-left: 5px;
-	padding-top: 67px;
-	
-}
-.box{
-	display: flex;
 }
 .log{
-	padding-bottom: 12px;
-	padding-left: 28px;
-	padding-right: 29px;
-	padding-top: 11px;
-	border-radius: 3px;
-	color: white;
-	font-family: Lato;
+padding-bottom: 12px;
+padding-left: 28px;
+padding-right: 29px;
+padding-top: 11px;
+border-radius: 3px;
+color: white;
+font-family: Lato;
 font-style: normal;
 font-weight: normal;
 font-size: 14px;
@@ -91,13 +94,19 @@ background-color: transparent;
 border-color: white;
 border: 1px solid;
 border-radius: 5px;
-margin-top: 50px;
 margin-left: 29px;
-
-	
+position: absolute;
+left: 1172px;
+top: 50px;
 }
-.head {
-	font-family: Lato;
+.head{
+position: absolute;
+width: 578px;
+height: 86px;
+left: 431px;
+top: 257px;
+
+font-family: Lato;
 font-style: normal;
 font-weight: bold;
 font-size: 72px;
@@ -106,83 +115,48 @@ display: flex;
 align-items: center;
 letter-spacing: 0.05em;
 text-transform: uppercase;
-color: white;
-padding-left: 431px;
-padding-top: 177px;
+
+color: #FFFFFF;
 }
 .text{
-	font-family: Lato;
-font-style: normal;
-font-weight: 600;
-font-size: 24px;
-line-height: 150%;
-/* or 36px */
-
-
-text-align: center;
-color: white;
-}
-.text1{
-	font-family: Lato;
-font-style: normal;
-font-weight: 600;
-font-size: 24px;
-line-height: 150%;
-/* or 36px */
-
-
-text-align: center;
-color: white;
-padding-top: 39px;
-	
-}
-.sig{
-	margin-left: 640px;
-	color: red;
-}
-.p1{
-	width: 30px;
-	height: 30px;
-	padding-top: 55px;
-	padding-left: 114px;
-}
-.w3{
-	
+	position: absolute;
+width: 490px;
+height: 124px;
+left: 470px;
+top: 382px;
 font-family: Lato;
 font-style: normal;
-font-weight: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 150%;
+text-align: center;
+
+color: #FFFFFF;
+
+}
+.sign{
+	position: absolute;
+width: 160px;
+height: 50px;
+left: 635px;
+top: 545px;
+
+background: #FFFFFF;
+border-radius: 6px;
+font-family: Lato;
+font-style: normal;
+font-weight: 600;
 font-size: 14px;
 line-height: 17px;
 display: flex;
 align-items: center;
 text-transform: uppercase;
-color: white;
-padding-top: 45px;
-padding-left: 12px;
-}
-.sig{
-	padding-bottom: 16px;
+border: none;
+
+color: #ED4C5C;
+padding-bottom: 16px;
 	padding-left: 52px;
 	padding-right: 53px;
 	padding-top: 17px;
-	border-radius: 8px;
-	background-color: white;
-	border: 1px;
-	margin-left: 640px;
-    font-family: lato;
-	font-style: regular;
-	font-size: 14px;
-	line-height: 17px;
-	line-height: 100%;
-	text-align: center;
-	vertical-align: center;
-	margin-top: 39px;
-}
-a{
-	color: white;
-	text-decoration: none;
-}
-a:hover{
-	
-	color: black;
+
 }
