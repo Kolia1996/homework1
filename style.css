@@ -129,4 +129,9 @@ padding-bottom: 16px;
 	display: flex;
 	justify-content: center;
 }
-
+a {color: white;
+	text-decoration: none;}
+a:hover {
+  color: black; 
+  border-bottom: none;
+}
