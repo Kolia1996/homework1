@@ -5,146 +5,108 @@ html,body {
 	background-size: 100% 100%;
 	min-height: 100vh;
 }
-.container{
+
+.header{
 	display: flex;
+	padding-top: 60px;
 	justify-content: center;
 }
-.header{
-display: flex;
-padding-top: 60px;
-}
 .cloud{
-	margin-left: -70px;
-	height: 17px;
-	width: 25px;
+	text-align: center;
+	width: 24.7px;
+	height: 17.4px;
 }
 .budget{
-margin-left: -40px;
-width: 136px;
-height: 22px;
-left: 50px;
-top: 59px;
 font-family: Lato;
 font-style: normal;
 font-weight: bold;
 font-size: 18px;
 line-height: 22px;
-display: flex;
-align-items: center;
+padding-left: 10px;
 text-transform: uppercase;
+align-items: center;
+
 color: #FFFFFF;
 }
 .menu{
-width: 445px;
-height: 22px;
-left: 498px;
-top: 58px;
 font-family: Lato;
 font-style: normal;
 font-weight: bold;
 font-size: 14px;
 line-height: 17px;
-display: flex;
 align-items: center;
 text-transform: uppercase;
-color: #FFFFFF;
 padding-left: 161px;
+color: #FFFFFF;
 }
 .name{
-	margin-left: 21px;
+	padding-left: 21px;
 }
 .usa{
-	margin-left: 114px;
+	padding-left: 114px;
 }
 .lg{
-	margin-left: 12px;
-	width: 32px;
-height: 22px;
-left: 1099px;
-top: 59px;
-
-font-family: Lato;
+	font-family: Lato;
 font-style: normal;
 font-weight: normal;
 font-size: 14px;
 line-height: 17px;
-display: flex;
 align-items: center;
 text-transform: uppercase;
-
+padding-left: 12px;
+padding-top: 7px;
 color: #FFFFFF;
-
 }
 .down{
-	width: 12.4px;
-	height: 7.5px;
-	position: absolute;
-	top: 67px;
-	
+	padding-top: 13px;
+	padding-left: 8px;
 }
 .log{
+margin-left: 29px;
 padding-bottom: 12px;
 padding-left: 28px;
 padding-right: 29px;
 padding-top: 11px;
-border-radius: 3px;
-color: white;
 font-family: Lato;
 font-style: normal;
 font-weight: normal;
 font-size: 14px;
 line-height: 17px;
 background-color: transparent;
+text-transform: uppercase;
 border-color: white;
 border: 1px solid;
 border-radius: 5px;
-margin-left: 90px;
-position: absolute;
-left: 1100px;
-top: 50px;
+color: #FFFFFF;
+margin-top: -5px;
 }
 .head{
-position: absolute;
-width: 578px;
-height: 86px;
-left: 431px;
-top: 257px;
-
 font-family: Lato;
 font-style: normal;
 font-weight: bold;
 font-size: 72px;
 line-height: 86px;
-display: flex;
+text-align: center;
 align-items: center;
 letter-spacing: 0.05em;
 text-transform: uppercase;
-
 color: #FFFFFF;
+
+margin-top: 177px;
 }
 .text{
-	position: absolute;
-width: 490px;
-height: 124px;
-left: 470px;
-top: 382px;
-font-family: Lato;
+	font-family: Lato;
 font-style: normal;
 font-weight: 600;
 font-size: 24px;
-line-height: 150%;
+line-height: 36px;
+margin-left: 450px;
+margin-right: 450px;
 text-align: center;
-
 color: #FFFFFF;
-
+padding-top: 39px;
 }
 .sign{
-	position: absolute;
-width: 160px;
-height: 50px;
-left: 635px;
-top: 545px;
-
 background: #FFFFFF;
 border-radius: 6px;
 font-family: Lato;
@@ -152,15 +114,19 @@ font-style: normal;
 font-weight: 600;
 font-size: 14px;
 line-height: 17px;
-display: flex;
-align-items: center;
 text-transform: uppercase;
 border: none;
-
 color: #ED4C5C;
 padding-bottom: 16px;
 	padding-left: 52px;
 	padding-right: 53px;
 	padding-top: 17px;
-
+	margin-top: 39px;
+	
+	
 }
+.button{
+	display: flex;
+	justify-content: center;
+}
+
